@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         sourceCurrencySpinner.adapter = adapter
         destinationCurrencySpinner.adapter = adapter
-        
+
         setupListeners()
     }
 
