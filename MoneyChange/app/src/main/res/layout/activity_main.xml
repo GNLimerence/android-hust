@@ -1,0 +1,35 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Currency Source Section -->
+    <EditText
+        android:id="@+id/sourceAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số tiền nguồn"
+        android:inputType="numberDecimal"/>
+
+    <Spinner
+        android:id="@+id/sourceCurrencySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Currency Destination Section -->
+    <EditText
+        android:id="@+id/destinationAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kết quả chuyển đổi"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+    <Spinner
+        android:id="@+id/destinationCurrencySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
